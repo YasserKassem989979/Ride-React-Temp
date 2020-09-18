@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.confirmationText{
+    display: flex;
+    flex-direction: column;
+}
+.confirmationButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button{
+    margin: 0px 3px;
+}

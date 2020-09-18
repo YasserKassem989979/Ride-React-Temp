@@ -1,0 +1,98 @@
+.card{
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    min-height: 75px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.card:hover{
+    background: rgba(238, 238, 238, 0.81);
+}
+.card:active{
+    transform: translateY(1px);
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.content{
+padding: 5px;
+border-right: 1px solid #eee;
+border-left: 1px solid #eee;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+
+.avatar{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.headerContent{
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.bodyContent{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.extraContent{
+ padding: 5px;
+ flex-direction: column;
+ justify-content: center; 
+ display: flex;   
+ align-items: center;
+}
+
+
+.pink_certificate{
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    font-size: 12px;
+    left:50%;
+    text-transform: capitalize;
+    transform: translate(-50%,-50%);
+}
+
+
+@media (max-width:500px){
+    .content{
+        font-size: 10px;
+    }
+    .avatar{
+        width: 40px;
+        height: 40px
+    }
+
+   
+}
+
+@media (max-width:780px){
+    .content{
+        font-size: 13px;
+    }
+        .avatar{
+            width: 50px;
+            height: 50px
+        }
+}

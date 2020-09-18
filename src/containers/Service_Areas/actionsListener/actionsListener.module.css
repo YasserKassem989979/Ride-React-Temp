@@ -1,0 +1,163 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.confirmationText{
+    display: flex;
+    flex-direction: column;
+}
+.confirmationButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button{
+    margin: 0px 3px;
+}
+
+
+
+.DialogTitle{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    justify-content: space-evenly;
+    padding: 12px;
+    flex-grow: 1;
+}
+
+.DialogContent{
+    display: flex;
+    flex-direction: column;
+    min-width: 912px;
+}
+
+.DialogContentWrapper{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formWrapper{
+    display: flex;
+}
+
+.slotsContainer{
+    margin: 10px 0px;
+}
+
+.slotsHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.slotsForm{
+    display: flex;
+    flex-direction: column;
+    width: 105%;
+}
+
+.slot{
+    border-bottom: 1px solid rgb(199, 199, 199);
+    margin: 10px 0px;
+}
+.datePakers{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.CommissionForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.promoCodeForm{
+    padding:18px 12px 20px 12px
+
+}
+
+.nameDescription{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.discountLimituser{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.checkboxese{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.datePromoForm{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.dateInputForm{
+    display: flex;
+    align-items: baseline
+}
+
+.confirmation{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1000px){
+    .DialogContent{
+        min-width: 400px;
+    }
+
+    .formWrapper{
+        flex-direction: column;
+    }
+
+    .datePakers{
+       flex-direction: column;
+    }
+}
+
+@media (max-width:769px) {
+    .slotsForm{
+        width: 100%;
+    }
+ 
+    
+}
+
+@media (max-width:401px){
+    .DialogContent{
+        min-width: 300px;
+    }
+}
+
+
+@media (max-width:500px){
+    .CommissionForm{
+      flex-direction: column;
+    }
+}
+
+
+@media (max-width:600px){
+   .promoCodeForm{
+       padding: 6px 12px 12px 12px;
+   }
+}

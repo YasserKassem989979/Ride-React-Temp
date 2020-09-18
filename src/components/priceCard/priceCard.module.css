@@ -1,0 +1,102 @@
+.priceCard{
+    min-width: 300px;
+    margin: 5px 4px;
+    background: #2d7997;
+    transition: all 0.2s ease-in;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.priceCard:hover{
+    background: #3b84a2;
+    transform: translateY(-1px)
+}
+
+.service_type{
+    display: flex;
+    padding: 4px;
+    background: #fff;
+    border-radius: 2px;
+    color: #3b84a2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_type > p{
+  flex-grow: 1;
+ text-align: center;
+}
+
+.service_type > div button{
+   padding: 0;
+}
+
+
+
+.info{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.part1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.logoSize{
+    font-size: 40px;
+    color: #fff;
+}
+
+.rateScope{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.priceScope{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    height: 50px;
+    align-items: center;
+    color: #fff;
+}
+
+.timeWrapper{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tim_distance{
+    display: flex;
+    align-items: baseline;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    justify-content: center;
+}
+
+@media (max-width:321px){
+    .priceCard{
+        min-width: 0px;
+        
+    }
+}

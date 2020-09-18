@@ -1,0 +1,109 @@
+.container{
+    max-width:600px;
+    display:flex;
+    flex-direction:column;
+    min-width: 350px;
+    align-items: center;
+    padding: 5px;
+    min-height: 350px;
+}
+
+
+.dateContainer{
+    display:flex;
+    align-items: center;
+    min-width: 300px;
+}
+
+
+.dateName{
+    margin:"0 3px"
+}
+
+.dateInput{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rateingContainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    min-width: 310px;
+    margin-bottom: 20px;
+    min-height: 42px;
+
+}
+
+
+
+.formControl{
+    margin: 8px;
+    min-width: 200px,
+  
+}
+
+
+.badgesFilter{
+    display: flex;
+    justify-content:space-between;
+}
+
+.badge{
+    margin: 2px 7px;
+}
+
+.toggleButton{
+    height: 35px;
+}
+
+
+
+
+@media (max-width:600px){
+    .container{
+        max-width:400px;
+        min-width: 350px; 
+    }
+}
+
+@media (max-width:450px){
+  
+    .badge{
+            margin: 3px 5px;
+        }
+    }
+
+@media (max-width:376px){
+    .container{
+        max-width:300px;
+        min-width: 254px; 
+    }
+
+    .rateingContainer{
+        
+        min-width: 235px;
+       
+    }
+    
+    .badge{
+        margin: 3px 5px;
+    }
+}
+
+
+@media (max-width:326px){
+  
+.badge{
+        margin: 3px 2px;
+    }
+}
+
+@media (max-width:322px){
+    .container{
+        max-width:290px;
+        min-width: 260px; 
+    }
+}
+

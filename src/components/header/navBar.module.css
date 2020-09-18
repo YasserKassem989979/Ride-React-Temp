@@ -1,0 +1,115 @@
+
+
+.MuiAppBarRoot {
+    width: 100% !important;
+    display: flex;
+    z-index: 1100;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex-direction: column;
+    transition: all 0.2s ease-out;
+}
+
+.MuiAppBarRootShiftRight {
+    width: calc(100% - 300px) !important;
+    margin-right: 300px;
+    transition: all 0.2s ease-out;
+    
+}
+
+.MuiAppBarRootShiftLeft {
+    width: calc(100% - 300px) !important;
+    margin-left: 300px;
+    transition: all 0.2s ease-out;
+}
+
+
+@media (max-width:1750px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 280px) !important;
+        margin-right: 280px;
+    }
+    .MuiAppBarRootShiftLeft {
+    width: calc(100% - 280px) !important;
+    margin-left: 280px;
+    }
+}
+
+@media (max-width:1650px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 270px) !important;
+        margin-right: 270px;
+    }
+    .MuiAppBarRootShiftLeft {
+    width: calc(100% - 270px) !important;
+    margin-left: 270px;
+    }
+}
+@media (max-width:1600px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 260px) !important;
+        margin-right: 260px;
+    }
+    .MuiAppBarRootShiftLeft {
+    width: calc(100% - 260px) !important;
+    margin-left: 260px;
+    }
+}
+
+@media (max-width:1540px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 250px) !important;
+        margin-right: 250px;
+    }
+    .MuiAppBarRootShiftLeft {
+    width: calc(100% - 250px) !important;
+    margin-left: 250px;
+    }
+}
+
+@media (max-width:1480px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 240px) !important;
+        margin-right: 240px;
+    }
+    .MuiAppBarRootShiftLeft {
+        width: calc(100% - 240px) !important;
+        margin-left: 240px;
+
+        }
+}
+
+@media (max-width:1460px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 235px) !important;
+        margin-right: 235px;
+    }
+    .MuiAppBarRootShiftLeft {
+    width: calc(100% - 235px) !important;
+    margin-left: 235px;
+    }
+}
+
+
+@media (max-width:1380px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 220px) !important;
+        margin-right: 220px;
+    }
+    .MuiAppBarRootShiftLeft {
+    width: calc(100% - 220px) !important;
+    margin-left: 220px;
+    }
+}
+
+
+@media (max-width:1320px){
+    .MuiAppBarRootShiftRight{
+        width: calc(100% - 200px) !important;
+        margin-right: 200px;
+    }
+    .MuiAppBarRootShiftLeft {
+    width: calc(100% - 200px) !important;
+    margin-left: 200px;
+    }
+}

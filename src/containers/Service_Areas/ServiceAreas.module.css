@@ -1,0 +1,277 @@
+
+.titleList{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #fff;
+    padding: 1px 4px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+    color: #14588d;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    height: 55px;
+}
+
+.listWrapper{
+    max-height: 700px;
+    overflow: auto;
+    padding: 10px 5px;
+}
+.wrapperForScoreCards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.scoreCardsCont{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.scoreCard{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    box-sizing: border-box;
+    min-width: 120px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 1px rgba(99, 99, 99, 0.2);
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    filter: none;
+}
+
+.scoreCard:hover .scoreCircle,.biggerScoreCard:hover .scoreCircle{
+    transform: scale(1.1);
+    /* background-color: #eee; */
+}
+
+
+.biggerScoreCard{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    box-sizing: border-box;
+    min-width: 242px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 1px rgba(99, 99, 99, 0.2);
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+}
+.scoreCircle{
+    font-size: 18px;
+    background-color: #17568d;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    color: #fff;
+    box-shadow: 1px 1px 3px 0px rgba(99, 99, 99, 0.2);
+    transition: all 0.2s ease-out;
+    min-width: 22px;
+}
+
+
+
+.scoreTilte{
+    min-width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.biggerScoreTilte{
+    min-width: 175px;
+    display: flex;
+    justify-content: center;
+}
+
+.areaDetails{
+    display: flex;
+    padding: 12px;
+    margin: 15px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.areaDetaislItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.areaDetaislItem:last-child{
+    flex-grow: 2
+}
+.mapContainer{
+    height: 600px;
+}
+
+
+.updateArea{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+
+
+
+
+.priceCardsList{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-out;
+}
+
+.priceCardsContainer{
+   display: flex;
+   justify-content: center;
+}
+
+.promoWrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dontKnow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    padding: 1px 0 5px 0;
+    box-shadow: 0px 1px 1px 0px #eee;
+    border-radius: 4px;
+    margin: 5px 0px;
+    transition: all 0.2s;
+}
+
+.dontKnow:hover{
+    background-color: #e6e6e6;
+    cursor: pointer;
+    border: 1px solid #d6d6d6;
+}
+
+.dontKnow:active{
+   transform: translateY(1px);
+}
+.promoCont{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    min-height: 30px;
+    box-sizing: border-box;
+   
+}
+
+.promoUsage{
+    min-width: 49px;
+}
+
+.actionsDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.areaWrapper{
+padding: 15px;
+}
+
+.normalServiceWrapper{
+    display: flex;
+    margin-top: 12px;
+    flex-direction: column;
+}
+
+.normaServiceCheckboxWrapper{
+    display: flex;
+    margin-top: 5px;
+}
+
+.docements{
+margin-bottom: 22px;
+}
+
+.personalDocuments{
+    margin: 10px 0;
+}
+.formControl {
+    margin: 5px;
+    min-width: 120px;
+    display: flex;
+  }
+
+  .chips{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .chip {
+    margin: 2px
+  }
+
+  .noLabel {
+    margin-top: 8px;
+  }
+
+/* MEDIA */
+
+
+@media (max-width:1375px){
+    .biggerScoreCard{
+       min-width: 0;
+        } 
+}
+
+@media (max-width:600px){
+    .areasList{
+        padding-top: 50px;
+        }
+    .scoreCard{
+        flex-direction: column;
+        min-width: 0px;
+        padding: 6px;
+    }
+    .scoreTilte{
+        min-width: 0px;
+    }
+    .biggerScoreCard{
+        flex-direction: column;
+        padding: 6px;
+    }
+
+    .biggerScoreTilte{
+        min-width: 0px;
+        
+    }
+    
+}
+
+
+@media (max-width:400px){
+    .text{
+        font-size: 12px;
+    }
+    .scoreCircle{
+        font-size: 12px;
+    }
+    .dontKnow{
+        font-size: 12px;
+    }
+    
+}

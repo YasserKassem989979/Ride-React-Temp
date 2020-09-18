@@ -1,0 +1,61 @@
+.rateCard{
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.nameStarsDate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameStars{
+display: flex;
+}
+
+.avatar{
+    margin: 0 5px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.dateHolder{
+display: flex;
+align-items: center;
+margin: 0 -2px;
+font-size:14px
+}
+
+.bookingid{
+display: flex;
+align-items: center;
+font-size:14px
+}
+.comment{
+
+}
+
+
+@media (max-width:550px){
+    .comment{
+        font-size: 13px;
+    }
+    .bookingid{
+        font-size: 12px;
+        }
+    .dateHolder{
+      font-size:12px
+            }
+}

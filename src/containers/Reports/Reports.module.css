@@ -1,0 +1,52 @@
+.smallScreenError{
+    display: flex;
+    justify-content: center;
+}
+
+.listHeader{
+border-bottom: 1px solid rgb(156, 156, 156);
+margin-bottom: 8px;
+}
+
+.list{
+    max-height: 800px;
+    overflow: auto;
+    padding: 5px;
+}
+.reportCard{
+    padding: 15px;
+    margin-bottom: 8px;
+    transition: all 0.2s;
+}
+
+.reportCardBlue{
+    padding: 15px;
+    margin-bottom: 8px;
+    transition: all 0.2s;
+    background: #4478a5;
+    color: #fff;
+}
+.reportCard:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.reportCard:active{
+    transform: translateY(1px);
+}
+.reportName{
+font-weight: bold;
+}
+
+.reportWrapper{
+    padding: 0 24px;
+}
+
+.paper{
+    width: 100%;
+    overflow-x: auto
+}
+
+.table{
+    min-width: 650px;
+}

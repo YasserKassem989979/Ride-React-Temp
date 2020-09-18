@@ -1,0 +1,193 @@
+.container{
+display: flex;
+flex-wrap: wrap;
+margin-top: 50px 
+}
+
+.form{
+    flex: 2;
+    margin: 0 15px;
+}
+
+.formPaper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 12px;
+}
+
+
+.searchInput{
+    display: flex;
+    align-items: flex-end;
+}
+
+.formControl{
+min-width: 300px;
+}
+
+.riderInfo{
+    display: flex;
+    margin-top: 25px;
+}
+
+.avatar{
+    max-width: 65px
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    justify-content: space-evenly;
+}
+
+.bookingDetails{
+
+}
+
+
+.inputtext{
+    min-width: 300px;
+    margin:  4px 12px;
+}
+
+.radioGroup{
+    display: flex;
+    align-items: flex-end;
+    /* align-items: center; */
+    min-height: 40px;
+    margin: 10px 0;
+}
+
+.radioWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 61px;
+}
+
+.bookingField{
+    display: flex;
+    align-items: flex-end;
+    margin: 17px 0;
+}
+
+.datFiled{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputlabel{
+    min-width: 157px;
+}
+
+
+.map{
+flex: 3;
+margin: 0 15px;
+}
+
+.mapWrapper{
+    width: 100%;
+    height: 776px;
+    min-width: 260px;
+}
+
+.bookButton{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.manualdispatchEstimateBox{
+    width: 120px;
+    background: #2c2c2c;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    z-index: 1;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,1);
+    transition: all 0.4s;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+}
+
+.mapCenter{
+    position: absolute;
+    top: calc(50% - 5px);
+    right: calc(50% - 5px);
+    z-index: 1;
+    color: #b02a2a;
+    display: flex;
+    flex-direction: column;
+}
+.googleLinks{
+    background: #dde2e7a8;
+    position: absolute;
+    top: calc(120px);
+    left: 2em;
+    z-index: 1;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.1);
+    transition: all 0.4s;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 3px;
+}
+.extendedIcon{
+    color: #fff;
+}
+
+/* Media queries*/
+
+@media (max-width:800px){
+    .map{
+        order: -1;
+        margin: 10px 15px;
+    }
+    .mapWrapper{
+        height: 200px;
+    }
+}
+
+@media (max-width:600px){
+    .inputtext{
+        min-width: 200px;
+        margin:  4px 7px;
+    }
+
+    .inputlabel{
+        min-width: 137px;
+    }
+
+    .manualdispatchEstimateBox{
+        width: 80px;
+        height: 100px;
+        top: calc(100% - 165px);
+        right: 5px;
+    
+    }
+    
+}
+
+@media (max-width:407px){
+    .inputtext{
+        min-width: 100px;
+        margin:  4px 4px;
+    }
+
+    .inputlabel{
+        min-width: 0px;
+    }
+}

@@ -1,0 +1,13 @@
+.container{
+    max-height:50px;
+    margin: 5px;
+    min-width: 220px;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin{
+    margin: 5px;
+}
