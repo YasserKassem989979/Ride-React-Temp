@@ -44,3 +44,17 @@ class App extends React.Component{
 
 
 //What would be the result of 2+5+”3″?
+///////////////////////////////////////////////////////////////////////
+var len = 10 
+function fn(){
+  console.log(this.len)
+}
+
+var obj = {
+  len:5,
+  method:function(fn){
+    fn();
+    arguments[0]();
+  }
+  }
+obj.method(fn,1)
